@@ -7,3 +7,61 @@ body {
     padding: 0% 2% 0% 2%;
     
 }
+
+
+.item-card-main {
+    box-shadow: 10px 10px 10px rgb(226, 230, 232);
+    border-radius: 5px;
+}
+
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 3em;
+
+    
+}
+
+#green-smoothie {
+    width: 50%;
+    background-color: white;
+    padding: 1em;
+    box-shadow: 10px 10px 10px rgb(226, 230, 232);
+    border-radius: 5px;
+    
+}
+
+.ingredients {
+    margin-left: 2em;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ingredients-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .flex-box {
+        flex-direction: column ;
+        align-items: center;
+        align-self: flex-start;
+        align-content: flex-start;
+        
+    }
+
+    .ingredients {
+        margin-left: 0;
+        margin-top: 1em;
+        width: 11.6em;
+    }
+  }
