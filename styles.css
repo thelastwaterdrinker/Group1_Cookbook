@@ -1,9 +1,24 @@
-navbar-light img {
-    margin-left: 20px;
+.navbar {
+    background-color: #ffffff;
 }
 
 body {
     margin: 0% 2% 0% 2%;
     padding: 0% 2% 0% 2%;
-    
+}
+
+.copyright {
+    background-color: #aeccc4;
+}
+
+.title-text {
+    color: #f1ada1;
+}
+
+.text-uppercase {
+    color: #5ea091;
+}
+
+i {
+    color: #5ea091;
 }
