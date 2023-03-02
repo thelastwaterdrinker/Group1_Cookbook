@@ -1,5 +1,5 @@
 function myFunction() {
-    alert('We are simple the best ones, never forget it!!!');
+    alert('We are simple the best ones on the market!');
 };
 
 
