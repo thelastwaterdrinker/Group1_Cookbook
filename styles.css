@@ -1,13 +1,11 @@
-navbar-light img {
-    margin-left: 20px;
+.navbar {
+    background-color: #ffffff;
 }
 
 body {
     margin: 0% 2% 0% 2%;
     padding: 0% 2% 0% 2%;
-    
 }
-
 
 .item-card-main {
     box-shadow: 10px 10px 10px rgb(226, 230, 232);
@@ -20,9 +18,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items:flex-start;
-    padding: 3em;
-
-    
+    padding: 3em;  
 }
 
 #green-smoothie {
@@ -30,8 +26,7 @@ body {
     background-color: white;
     padding: 1em;
     box-shadow: 10px 10px 10px rgb(226, 230, 232);
-    border-radius: 5px;
-    
+    border-radius: 5px;  
 }
 
 .ingredients {
@@ -65,3 +60,44 @@ body {
         width: 11.6em;
     }
   }
+=======
+.copyright {
+    background-color: #aeccc4;
+}
+
+.title-text {
+    color: #f1ada1;
+}
+
+.text-uppercase {
+    color: #5ea091;
+}
+
+i {
+    color: #5ea091;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+body {
+    margin: 0% 2% 0% 2%;
+    padding: 0% 2% 0% 2%;
+}
+
+.copyright {
+    background-color: #aeccc4;
+}
+
+.title-text {
+    color: #f1ada1;
+}
+
+.text-uppercase {
+    color: #5ea091;
+}
+
+i {
+    color: #5ea091;
+}
